@@ -12,11 +12,11 @@ const Edit = () => {
 
   return (
     <div>
-      <h1>Rich Text Editor</h1>
+      <h1>Editor</h1>
       <RichTextEditor value={editorContent} onChange={handleEditorChange} />
       <div>
-        <h2>Editor Output:</h2>
-        <div dangerouslySetInnerHTML={{ __html: editorContent }} />
+        {/* <h2>Editor Output:</h2>
+        <div dangerouslySetInnerHTML={{ __html: editorContent }} /> */}
       </div>
     </div>
   );

@@ -11,12 +11,12 @@ const App = () => {
 
   return (
     <div>
+      <CustomDialog open={open} onClose={handleClose} />
+      <h1 className="text-4xl text-blue-700"> </h1>
+      <Edit />
       <Button variant="outlined" color="primary" onClick={handleOpen}>
         Open Dialog
       </Button>
-      <CustomDialog open={open} onClose={handleClose} />
-      <h1 className="text-4xl text-blue-700">Sample of </h1>
-      <Edit />
     </div>
   );
 };
